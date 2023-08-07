@@ -1,0 +1,26 @@
+body {
+    color: bisque;
+    background-color: lightsalmon;
+}
+
+h3 {
+    font-size: 22px;
+    color: brown;
+    width: 80%;
+}
+
+p {
+    font:bold;
+    color: black;
+    width: 80%;
+}
+
+#camera {
+    border:2px dashed black;
+    width: 350px;
+    height: 300px;
+}
+
+#result_object , #result_accuracy {
+    color: lightcoral;
+}

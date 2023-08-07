@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+     <meta charset= "utf-8">
+ <title>FACE RECOGNITION</title>
+ <link rel="stylesheet" href="style.css">
+ <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    
+<body>
+    <div class="container">
+        <h2 style="text-align: center;font-size: 40px">FACE RECOGNITION WEB APP</h2>
+        <br> <br>
+
+        <p style="font-size:28px;text-align: left;">This model has been trained for identifying the following-</p>
+        <br><br><br><br><br>
+        <h3 class="btn-btn primary" style="text-align: center;">Me</h3> <br>
+        <h3 class="btn-btn primary" style="text-align: center;">Papa</h3> <br>
+        <h3 class="btn-btn primary" style="text-align: center;">Mummy</h3> <br>
+        <h3 class="btn-btn primary" style="text-align: center;">Princy</h3> <br>
+        <h3 class="btn-btn primary" style="text-align: center;">Dadi</h3> <br>
+        <h3 class="btn-btn primary" style="text-align: center;">Dadu</h3> <br><br>
+
+        <label>Webcam View:-</label>
+        <div id="camera"></div> 
+        <br><br>
+        <div id="result"></div>
+        <br><br>
+        <button onclick="take_snapshot()" class="btn btn-info">Capture Image</button>
+        <br><br>
+        <button onclick="check()" class="btn btn-success">identify Image</button>
+        <br><br>
+
+        <p style="font-size:22px;">Object:-<span id="result_object">g</span></p>
+        <p style="font-size:22px;">Accuracy:-<span id="result_accuracy">g</span></p>
+    </div>
+
+   <script src="main.js"></script> 
+
+</body>
+</html>
